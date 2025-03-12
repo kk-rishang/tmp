@@ -1,11 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tmp
+  name: "my-demo-app"
   annotations:
-    github.com/project-slug: kk-rishang/tmp
-
+    github.com/project-slug: 'kk-rishang/tmp'
 spec:
-  type: other
+  type: service
+  owner: user:default/guest
   lifecycle: experimental
-  owner: admin-team
+  dependsOn: 
+    - "resource:my-demo-app-ec2"
