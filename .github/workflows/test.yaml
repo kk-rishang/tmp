@@ -1,0 +1,17 @@
+name: CI Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  echo-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Echo a message
+        run: echo "hi ci"
