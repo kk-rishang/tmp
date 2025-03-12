@@ -4,7 +4,6 @@ metadata:
   name: tmp
   annotations:
     github.com/project-slug: kk-rishang/tmp
-    roadie-backstage-pull-requests/default-filter: "is:open is:pr"
 
 spec:
   type: other
