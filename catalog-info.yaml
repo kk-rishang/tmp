@@ -6,5 +6,5 @@ metadata:
     github.com/project-slug: 'kk-rishang/tmp'
 spec:
   type: service
-  owner: user:kk-rishang
+  owner: admin
   lifecycle: experimental
