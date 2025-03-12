@@ -6,7 +6,5 @@ metadata:
     github.com/project-slug: 'kk-rishang/tmp'
 spec:
   type: service
-  owner: user:default/guest
+  owner: user:kk-rishang
   lifecycle: experimental
-  dependsOn: 
-    - "resource:my-demo-app-ec2"
