@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "my-demo-app"
+  name: "tmp"
   annotations:
     github.com/project-slug: 'kk-rishang/tmp'
 spec:
