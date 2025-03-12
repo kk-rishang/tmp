@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "tmp"
+  name: tmp
   annotations:
-    github.com/project-slug: 'kk-rishang/tmp'
+    github.com/project-slug: kk-rishang/tmp
+
 spec:
-  type: service
-  owner: admin
+  type: other
   lifecycle: experimental
+  owner: admin-team
